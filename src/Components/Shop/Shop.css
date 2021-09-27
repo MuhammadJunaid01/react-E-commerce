@@ -1,0 +1,31 @@
+.product {
+  padding: 30px;
+  box-sizing: border-box;
+  background-image: url(https://images.unsplash.com/photo-1566385101042-1a0aa0c1268c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1032&q=80);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  margin-top: 10px;
+}
+.show-product {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+.img {
+  height: 120px;
+  width: 200px;
+  border-radius: 6px;
+}
+.order {
+  margin-top: 15px;
+  margin-left: 6px;
+}
+@media (min-width: 305px) and (max-width: 648px) {
+  .product {
+    display: block;
+  }
+  .show-product {
+    display: block;
+  }
+}

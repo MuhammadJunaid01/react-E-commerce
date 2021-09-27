@@ -1,0 +1,17 @@
+.review {
+  background-color: rgba(187, 200, 211, 0.377);
+  color: black;
+  overflow: hidden;
+}
+.review-img {
+  height: 170px;
+  width: 170px;
+  border-radius: 50%;
+  border: 2px solid rgba(0, 0, 255, 0.582);
+  margin: 0 auto;
+  margin-top: 7px;
+}
+.cards {
+  text-align: center;
+  padding: 20px;
+}

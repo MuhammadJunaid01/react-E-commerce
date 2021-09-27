@@ -1,0 +1,28 @@
+.display-product {
+  background-color: gainsboro;
+  margin: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  text-align: center;
+}
+.about {
+  font-size: 17px;
+}
+.purchase {
+  border: none;
+  outline: bisque;
+  font-size: 18px;
+  border-radius: 7px;
+  background-image: linear-gradient(to left, orange, tomato);
+  padding: 3px 8px;
+  cursor: pointer;
+}
+.bt-icon {
+  color: white;
+  margin-right: 4px;
+}
+.color {
+  color: goldenrod;
+}
+/* @media (min-width: 305px) and (max-width: 648px) */

@@ -1,0 +1,27 @@
+.bg-head {
+  background-color: #82ae46;
+  color: white;
+}
+.logo {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 255, 0.596);
+}
+.bag-nav {
+  background-color: white;
+  color: black;
+}
+.top-head {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (min-width: 305px) and (max-width: 648px) {
+  .top-head {
+    display: block;
+  }
+  .free {
+    display: block;
+  }
+}
